@@ -31,7 +31,7 @@ const ThemeToggle = () => {
       {!isDark && (
         <button
           onClick={() => toggleTheme("dark")}
-          className="p-2 rounded-lg hover:bg-slate-200 text-center"
+          className="p-2 rounded-lg hover:bg-yellow-200 text-center"
         >
           <img className="h-5 w-5" src={LightIcon}/>
         </button>
