@@ -23,7 +23,7 @@ export const Wallet = (props) => {
   return (
     <div className="my-2">
       <div
-        className="flex items-center justify-between bg-yellow-400 dark:bg-slate-900 dark:text-slate-100 font-semibold rounded px-2 py-2"
+        className="flex items-center justify-between bg-yellow-400 hover:bg-yellow-500 dark:bg-slate-800 dark:hover:bg-slate-900 dark:text-slate-100 font-semibold rounded px-2 py-2 cursor-pointer"
         onClick={() => setShowDetails(!showDetails)}
       >
         <div>{`${wallet.type}-Wallet`}</div>

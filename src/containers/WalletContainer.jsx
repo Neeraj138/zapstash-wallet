@@ -96,6 +96,9 @@ export const WalletContainer = (props) => {
               </div>
             </div>
           </div>
+          <div className="text-xs text-center p-1 dark:text-yellow-400">
+            Click on a wallet to view the address
+          </div>
           {renderWallets(wallets, filterCoin)}
         </div>
       ) : null}
